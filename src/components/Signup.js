@@ -69,6 +69,8 @@ const Signup = () => {
                             <label htmlFor='confirmPassword'>Confirm Password</label>
                             <input type="password" name="confirmPassword" value={confirmPassword} onChange={handleConfirmPassword} className='form-control' />
                         </div>
+                        <button type='submit' className='btn btn-primary float-right'>Login</button>
+
                     </form>
                 </div>
             </div>
