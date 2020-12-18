@@ -61,7 +61,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar handleLogout={handleLogout} isAuth={isAuthenticated} />
+      {/* <Navbar handleLogout={handleLogout} isAuth={isAuthenticated} /> */}
       <Welcome />
       <About />
       <Footer />
